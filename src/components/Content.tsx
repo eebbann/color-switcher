@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 type none = {
-	handleClick: (e: React.ChangeEventHandler) => {};
+	handleClick: (e: React.ChangeEventHandler) => void;
 	i: number;
 };
 
@@ -40,7 +40,7 @@ const Content: React.FC<none> = () => {
 			<div className="flex justify-center align-middle gap-8">
 				<button
 					className="rounded-full px-3 py-2 text-white text-lg bg-orange-400"
-					onClick={(e) => handleClick(e)}
+					onClick={  handleClick }
 				>
 					{" "}
 					change A

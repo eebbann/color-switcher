@@ -19,6 +19,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src", "../yimigration/dreamalta/src/components/constant"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
